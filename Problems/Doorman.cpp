@@ -51,7 +51,6 @@ int main() {
                     M++;
                 }
                 else {
-//                    cout << (M + W);
                     break;
                 }
             }

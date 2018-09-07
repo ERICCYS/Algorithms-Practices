@@ -41,7 +41,6 @@ int main() {
         int c = 0;
 
         FOR(i, 0, M-1) {
-//            cout << Ht[i] << Tr[i] << endl;
             if (Ht[i] == 1) {
                 if (Tr[i] % 7 == 6)
                     c++;

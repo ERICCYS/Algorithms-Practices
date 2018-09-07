@@ -50,6 +50,7 @@ int main() {
         R[i] = F(0,str.length() - 1,18,T,str);
     }
 
+    // Not a good practise though...
     FOR (i, 0, N - 1) {
         if (R[i] >= 10000) {
             R[i] = R[i] % 10000;

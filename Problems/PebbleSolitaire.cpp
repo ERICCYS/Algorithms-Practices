@@ -63,9 +63,7 @@ int PeddleCount (string S) {
 
 int MakeMove (string S, Move M, int Memo[][SIZE], bool R[]) {
     string nS = TakeMove(S, M);
-//    cout << nS << endl;
     if (Cases(nS) == 0){
-//        cout << nS << "      " << PeddleCount(nS) <<  endl;
         R[PeddleCount(nS) - 1] = 1;
         return 1;
     }
@@ -78,12 +76,6 @@ int MakeMove (string S, Move M, int Memo[][SIZE], bool R[]) {
         int pre_ans = -1;
         FOR(i, 0, Cases(nS) - 1){
             pre_ans = ans;
-//            if (Memo[Ms[i].from][Ms[i].to] != -1) {
-//                ans = max(ans, Memo[Ms[i].from][Ms[i].to]);
-//            }
-//            else{
-//                ans = max(ans, MakeMove(nS, Ms[i], Memo, R));
-//            }
             ans = max(ans, MakeMove(nS, Ms[i], Memo, R));
             if (ans >= pre_ans) {
                 OptM.from = Ms[i].from;
@@ -124,7 +116,6 @@ int main() {
                     }
                 }
                 MakeMove(S,Ms[i],Memo,R);
-//                cout << endl;
             }
             FOR(i,0, SIZE - 1) {
                 if (R[i] == 1){
