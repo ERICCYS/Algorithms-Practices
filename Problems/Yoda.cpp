@@ -31,9 +31,6 @@ int main() {
     int L1 = IntLen(a);
     int L2 = IntLen(b);
 
-
-//    cout << L1 << "  " << L2 << endl;
-
     int A[L1] = {0};
     int NA[L1] = {0};
     int B[L2] = {0};
@@ -51,14 +48,6 @@ int main() {
     }
 
 
-//    FOR (i, 0 , L1 - 1) {
-//        NA[i] = A[L1 -1 - i];
-//    }
-//
-//    FOR (i, 0 , L2 - 1) {
-//        NB[i] = B[L2 - 1 - i];
-//    }
-
     FOR (i, 0, (Min(L1,L2) - 1)) {
         if (A[i] > B[i]) {
             B[i] = 10;
@@ -68,17 +57,6 @@ int main() {
         }
     }
 
-
-//    FOR (i, 0 , L1 - 1) {
-//        cout << A[i] << " ";
-//    }
-//
-////    cout << endl;
-//
-//    FOR (i, 0 , L2 - 1) {
-//        cout << B[i] << " ";
-//    }
-//
     int Ra = 0;
     int Rb = 0;
 

@@ -11,7 +11,6 @@ int main() {
     cin >> n;
 
     int length = 2 + ((n-1) / 25);
-//    cout << length << endl;
     char S[length];
 
     if (n <= 25) {

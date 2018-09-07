@@ -17,21 +17,18 @@ int main() {
                 P = 2;
             else if (P == 2)
                 P = 1;
-//            cout << "Now P is " << P;
         }
         else if (S[i] == 'B') {
             if (P == 2)
                 P = 3;
             else if (P == 3)
                 P = 2;
-//            cout << "Now P is " << P;
         }
         else if (S[i] == 'C') {
             if (P == 1)
                 P = 3;
             else if (P == 3)
                 P = 1;
-//            cout << "Now P is " << P;
         }
         else
             break;

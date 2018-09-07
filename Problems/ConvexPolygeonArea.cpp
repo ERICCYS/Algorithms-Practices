@@ -18,9 +18,6 @@ int main() {
             cin >> V[j][0] >> V[j][1];
         }
 
-//        for (int j = 0; j < E; j++) {
-//            cout << V[j][0] << V[j][1];
-//        }
         double A = 0;
         for (int j = 1; j < E - 1; j++) {
             A += area(V[0], V[j], V[j + 1]);
