@@ -3,10 +3,7 @@
 Recommend starting lines to make you code faster for long programs
 
 ```cpp
-#include <iostream>
-#include <string>
-#include <cmath>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 #define FOR(i, a, b) for(int (i) = (a); (i) <= (b); (i)++)
