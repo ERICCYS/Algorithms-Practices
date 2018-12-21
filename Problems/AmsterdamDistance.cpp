@@ -1,6 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <cmath>
+#include<bits/stdc++.h>
 using namespace std;
 #define PI 3.141592653589793
 

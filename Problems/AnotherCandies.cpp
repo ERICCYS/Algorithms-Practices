@@ -1,7 +1,4 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <cmath>
+#include<bits/stdc++.h>
 using namespace std;
 #define FOR(i, a, b) for(int (i) = (a); (i) <= b; (i)++)
 typedef unsigned long long ull;
@@ -17,11 +14,12 @@ int main() {
 
         int N;
         cin >> N;
-        int R[N];
+        vector<int> R;
         ull buf;
+
         FOR(i, 0, N - 1) {
             cin >> buf;
-            R[i] = buf % N;
+            R.push_back(buf);
         }
 
         int total = 0;

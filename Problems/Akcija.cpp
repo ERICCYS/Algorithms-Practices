@@ -1,7 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <string>
-#include <cmath>
+#include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 #define FOR(i, a, b) for(int(i) = (a); (i) <= (b); (i)++)
@@ -19,10 +16,6 @@ int main() {
     }
 
     sort(A, A + n, wayToSort);
-    // FOR(i, 0, n - 1) {
-    //     cout << A[i] << " ";
-    // }
-    // cout << endl;
     int total = 0;
     
     FOR(i, 0, n - 1) {

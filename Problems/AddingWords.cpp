@@ -1,8 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <string>
-#include <map>
-#include <iterator>
+#include<bits/stdc++.h>
 using namespace std;
 typedef pair<string, int> psi;
 #define FOR(i, a, b) for(int (i) = (a); (i) <= b; (i)++)

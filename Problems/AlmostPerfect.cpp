@@ -1,10 +1,4 @@
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <cmath>
-#include <algorithm>
-#include <set>
-#include <iterator>
+#include<bits/stdc++.h>
 using namespace std;
 
 #define FOR(i, a, b) for(int (i) = (a); (i) <= (b); (i)++)
@@ -13,6 +7,7 @@ using namespace std;
 int main() {
     int N;
     string S;
+//    cin >> S;
     getline(cin,S);
     while (S.length() != 0) {
         stringstream geek(S);
@@ -30,13 +25,16 @@ int main() {
             Div.insert(N / (*itr));
         }
         int sum = 0;
+//        cout << 1 << " ";
         for (itr = Div.begin(); itr != Div.end(); ++itr)
         {
+//            cout << *itr << " ";
             sum += *itr;
         }
         Div.insert(1);
         sum++;
-
+//        cout << endl;
+//        cout << sum << endl;
         if (sum == N) {
             cout << N << " " << "perfect" << endl;
         }

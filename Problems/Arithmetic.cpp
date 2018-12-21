@@ -1,7 +1,4 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <cmath>
+#include<bits/stdc++.h>
 using namespace std;
 #define FOR(i, a, b) for(int (i) = (a); (i) <= b; (i)++)
 #define ROF(i, a, b) for(int (i) = (a); (i) >= b; (i)--)
