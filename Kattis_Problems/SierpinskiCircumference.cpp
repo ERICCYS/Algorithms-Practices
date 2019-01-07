@@ -1,5 +1,4 @@
-#include <iostream>
-#include <cmath>
+#include<bits/stdc++.h>
 using namespace std;
 #define LOG2 0.3010299957
 #define LOG3 0.4771212547

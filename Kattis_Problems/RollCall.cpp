@@ -1,9 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <string>
-#include <sstream>
-#include <vector>
-#include <iterator>
+#include<bits/stdc++.h>
 using namespace std;
 #define FOR(i, a, b) for(int (i) = (a); (i) <= b; (i)++)
 
@@ -47,8 +42,6 @@ int main() {
     n.fn = name[0];
     n.ln = name[1];
     n.full = false;
-    // cout << "First name is: " << name[0] << endl;
-    // cout << "Last name is: " << name[1] << endl;
     Names.push_back(n);
     getline(cin, s);
   }

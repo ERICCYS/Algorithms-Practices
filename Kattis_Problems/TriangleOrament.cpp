@@ -1,9 +1,8 @@
-#include <iostream>
-#include <cmath>
+#include<bits/stdc++.h>
 using namespace std;
-
 #define FOR(i, a, b) for(int (i) = (a); (i) <= (b); (i)++)
 #define sqr(x) ((x) * (x))
+
 int main() {
     int N;
     double L = 0;

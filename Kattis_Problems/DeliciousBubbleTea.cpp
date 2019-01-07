@@ -1,10 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <string>
-#include <vector>
-#include <map>
-#include <set>
-#include <iterator>
+#include<bits/stdc++.h>
 using namespace std;
 typedef pair<int, set<int>> pisi;
 #define FOR(i, a, b) for(int (i) = (a); (i) <= b; (i)++)

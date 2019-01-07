@@ -1,5 +1,6 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
+
 int main() {
     int A, B, C, D;
     int P, M, G;

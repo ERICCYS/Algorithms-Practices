@@ -1,7 +1,4 @@
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <queue>
+#include<bits/stdc++.h>
 using namespace std;
 typedef long double ld;
 typedef pair<long double, int> pli;

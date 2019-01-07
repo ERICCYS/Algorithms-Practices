@@ -5,13 +5,7 @@ int main() {
     vector<string> strs;
     string str;
     set<string> words;
-
-    // int count = 0;
-    // while (cin >> str) {
-    //     strs.push_back(str);
-    //     count++;
-    //     if (count > 3) break;
-    // }
+    
     while (cin >> str) {
         strs.push_back(str);
     }

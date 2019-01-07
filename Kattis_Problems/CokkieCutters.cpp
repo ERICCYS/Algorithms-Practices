@@ -1,6 +1,4 @@
-#include <iostream>
-#include <cmath>
-
+#include<bits/stdc++.h>
 using namespace std;
 double PGArea (double[][2],int N);
 int main () {

@@ -33,28 +33,14 @@ int main() {
             prizes.push_back(p);
         }
 
-
-        // for (int i = 0; i < n; i++) {
-        //     for (int j = 0; j < stickers[i].size(); j++) {
-        //         cout << stickers[i][j] << " ";
-        //     }
-        //     cout << endl;
-        // }
-
         int sticker_q;
         for (int i = 0; i < m; i++) {
             cin >> sticker_q;
             sts_q.push_back(sticker_q);
         }
 
-        // for (int i = 0; i < m; i++) {
-        //     cout << sts_q[i] << " ";
-        // }
-        // cout << endl;
-
         int cash = 0;
         for (int i = 0;i < n; i++) {
-            // cout << sts_min(sts_q, stickers[i]) << endl;
             cash += prizes[i] * sts_min(sts_q, stickers[i]);    
         }
         cout << cash << endl;

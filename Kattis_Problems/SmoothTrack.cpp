@@ -1,7 +1,5 @@
-#include <iostream>
-#include <math.h>
+#include<bits/stdc++.h>
 using namespace std;
-
 #define PI 3.141592654
 
 int main() {

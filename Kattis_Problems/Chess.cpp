@@ -31,8 +31,6 @@ int main() {
         getchar();
         cin >> e_y;
         getchar();
-        // cout << s_x << " " << s_y << " " << e_x << " " << e_y << endl;
-        // cout << toX(s_x) << " " << toY(s_y) << " " << toX(e_x) << " " << toY(e_y) << endl;
 
         int s_X = toX(s_x);
         int s_Y = toY(s_y);
